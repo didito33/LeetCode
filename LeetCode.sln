@@ -5,9 +5,31 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day1", "Day1", "{CE9C7E07-EA7E-41C3-BD46-5E510FE1E8DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1480. Running Sum of 1d Array", "1480. Running Sum of 1d Array\1480. Running Sum of 1d Array.csproj", "{B717F193-2A5F-4D22-B968-AC7229FEE4B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "724. Find Pivot Index", "724. Find Pivot Index\724. Find Pivot Index.csproj", "{1A7B0172-1AEE-4181-AD1B-633500DB4A82}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B717F193-2A5F-4D22-B968-AC7229FEE4B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B717F193-2A5F-4D22-B968-AC7229FEE4B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B717F193-2A5F-4D22-B968-AC7229FEE4B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B717F193-2A5F-4D22-B968-AC7229FEE4B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A7B0172-1AEE-4181-AD1B-633500DB4A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A7B0172-1AEE-4181-AD1B-633500DB4A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A7B0172-1AEE-4181-AD1B-633500DB4A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A7B0172-1AEE-4181-AD1B-633500DB4A82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B717F193-2A5F-4D22-B968-AC7229FEE4B2} = {CE9C7E07-EA7E-41C3-BD46-5E510FE1E8DD}
+		{1A7B0172-1AEE-4181-AD1B-633500DB4A82} = {CE9C7E07-EA7E-41C3-BD46-5E510FE1E8DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B4B36DE-E28A-4771-99BA-FCEC2046BE98}
