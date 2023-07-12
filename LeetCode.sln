@@ -5,11 +5,15 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day1", "Day1", "{CE9C7E07-EA7E-41C3-BD46-5E510FE1E8DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1480. Running Sum of 1d Array", "1480. Running Sum of 1d Array\1480. Running Sum of 1d Array.csproj", "{B717F193-2A5F-4D22-B968-AC7229FEE4B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1480. Running Sum of 1d Array", "1480. Running Sum of 1d Array\1480. Running Sum of 1d Array.csproj", "{B717F193-2A5F-4D22-B968-AC7229FEE4B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "724. Find Pivot Index", "724. Find Pivot Index\724. Find Pivot Index.csproj", "{1A7B0172-1AEE-4181-AD1B-633500DB4A82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "724. Find Pivot Index", "724. Find Pivot Index\724. Find Pivot Index.csproj", "{1A7B0172-1AEE-4181-AD1B-633500DB4A82}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day2", "Day2", "{D97D6DB2-884C-4ABD-B39A-C65A4682C0DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "205. Isomorphic Strings", "205. Isomorphic Strings\205. Isomorphic Strings.csproj", "{4556DA56-4043-461A-BD1E-F42DE4A5B5D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "392. Is Subsequence", "392. Is Subsequence\392. Is Subsequence.csproj", "{10E6803A-512A-4182-8ED1-1BCA7D49018B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,14 @@ Global
 		{1A7B0172-1AEE-4181-AD1B-633500DB4A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A7B0172-1AEE-4181-AD1B-633500DB4A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A7B0172-1AEE-4181-AD1B-633500DB4A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4556DA56-4043-461A-BD1E-F42DE4A5B5D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4556DA56-4043-461A-BD1E-F42DE4A5B5D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4556DA56-4043-461A-BD1E-F42DE4A5B5D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4556DA56-4043-461A-BD1E-F42DE4A5B5D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E6803A-512A-4182-8ED1-1BCA7D49018B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E6803A-512A-4182-8ED1-1BCA7D49018B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E6803A-512A-4182-8ED1-1BCA7D49018B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E6803A-512A-4182-8ED1-1BCA7D49018B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B717F193-2A5F-4D22-B968-AC7229FEE4B2} = {CE9C7E07-EA7E-41C3-BD46-5E510FE1E8DD}
 		{1A7B0172-1AEE-4181-AD1B-633500DB4A82} = {CE9C7E07-EA7E-41C3-BD46-5E510FE1E8DD}
+		{4556DA56-4043-461A-BD1E-F42DE4A5B5D3} = {D97D6DB2-884C-4ABD-B39A-C65A4682C0DA}
+		{10E6803A-512A-4182-8ED1-1BCA7D49018B} = {D97D6DB2-884C-4ABD-B39A-C65A4682C0DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B4B36DE-E28A-4771-99BA-FCEC2046BE98}
