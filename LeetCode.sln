@@ -11,9 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "724. Find Pivot Index", "72
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day2", "Day2", "{D97D6DB2-884C-4ABD-B39A-C65A4682C0DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "205. Isomorphic Strings", "205. Isomorphic Strings\205. Isomorphic Strings.csproj", "{4556DA56-4043-461A-BD1E-F42DE4A5B5D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "205. Isomorphic Strings", "205. Isomorphic Strings\205. Isomorphic Strings.csproj", "{4556DA56-4043-461A-BD1E-F42DE4A5B5D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "392. Is Subsequence", "392. Is Subsequence\392. Is Subsequence.csproj", "{10E6803A-512A-4182-8ED1-1BCA7D49018B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "392. Is Subsequence", "392. Is Subsequence\392. Is Subsequence.csproj", "{10E6803A-512A-4182-8ED1-1BCA7D49018B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day3", "Day3", "{700950C0-A08A-446C-8A78-CDAF51CA8530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21. Merge Two Sorted Lists", "21. Merge Two Sorted Lists\21. Merge Two Sorted Lists.csproj", "{9EDA6F4E-5525-449A-9791-97E41440301F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "206. Reverse Linked List", "206. Reverse Linked List\206. Reverse Linked List.csproj", "{78AE0344-9C20-4E8B-8A1A-0FF5054DCEF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,14 @@ Global
 		{10E6803A-512A-4182-8ED1-1BCA7D49018B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10E6803A-512A-4182-8ED1-1BCA7D49018B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10E6803A-512A-4182-8ED1-1BCA7D49018B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EDA6F4E-5525-449A-9791-97E41440301F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EDA6F4E-5525-449A-9791-97E41440301F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EDA6F4E-5525-449A-9791-97E41440301F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EDA6F4E-5525-449A-9791-97E41440301F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AE0344-9C20-4E8B-8A1A-0FF5054DCEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AE0344-9C20-4E8B-8A1A-0FF5054DCEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AE0344-9C20-4E8B-8A1A-0FF5054DCEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AE0344-9C20-4E8B-8A1A-0FF5054DCEF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +60,8 @@ Global
 		{1A7B0172-1AEE-4181-AD1B-633500DB4A82} = {CE9C7E07-EA7E-41C3-BD46-5E510FE1E8DD}
 		{4556DA56-4043-461A-BD1E-F42DE4A5B5D3} = {D97D6DB2-884C-4ABD-B39A-C65A4682C0DA}
 		{10E6803A-512A-4182-8ED1-1BCA7D49018B} = {D97D6DB2-884C-4ABD-B39A-C65A4682C0DA}
+		{9EDA6F4E-5525-449A-9791-97E41440301F} = {700950C0-A08A-446C-8A78-CDAF51CA8530}
+		{78AE0344-9C20-4E8B-8A1A-0FF5054DCEF6} = {700950C0-A08A-446C-8A78-CDAF51CA8530}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B4B36DE-E28A-4771-99BA-FCEC2046BE98}
