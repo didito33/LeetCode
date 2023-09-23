@@ -1,13 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
-String a, b, c;
-c = new String("mouse");
-a = new String("cat");
-b = a;
-a = new String("dog"); c = b;
-c = "pidor";
-Console.WriteLine(c); // returns cat
-/*
+
 Console.WriteLine(Reverse(-123));
 Console.WriteLine(Reverse(123));
 int Reverse(int x)
@@ -39,14 +32,4 @@ int Reverse(int x)
         result[0] = '-';
     }
     return int.Parse(result);
-}*/
-/*using System;
-    int i = 0;
-    addTwo(i);
-Console.WriteLine(addTwo(i));
-    Console.WriteLine(i);
-static int addTwo(int i)
-{
-    i += 2;
-    return i;
-}*/
+}
